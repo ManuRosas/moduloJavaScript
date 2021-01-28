@@ -13,3 +13,16 @@ console.log ((a + b + (c / c)) * a);
 console.log (((3 * a) / c) + a + b + c);  
 
 console.log (a - (b + c) * (a / 1));
+
+//Ciclo for
+
+for (i = 0; i <= 10; i++) {
+    console.log (i);
+}
+
+//Imprime impares del 1 al 10
+
+for (i = 0; i <=10; i++) {
+    if ( i % 2 !== 0)
+    console.log (i);
+}
